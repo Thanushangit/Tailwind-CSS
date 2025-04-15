@@ -1,1 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+
 @import "tailwindcss";
+
+
+
+@theme{
+    --font-primary: "Edu AU VIC WA NT Arrows";
+}
+
+@layer components{
+    .btn{
+        @apply bg-red-600 text-white p-2 rounded m-3 hover:bg-red-500 cursor-pointer;
+    }
+}
+
